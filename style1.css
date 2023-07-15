@@ -1,0 +1,84 @@
+/* SKELETAL STRUCTURE */
+/* HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+    background-image: url('Image Album/Image1.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%;
+    background-position: center;
+    color: white;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* BODY */
+body {
+    background-image: url('Image Album/Image1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    opacity: none; 
+}
+
+/* NAV-PANEL */
+nav {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-shadow: none;
+    font-family: 'CustomFont4', Arial, sans-serif;
+    overflow: hidden;
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 10%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav a {
+    float: right;
+    display: ruby-text;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: #ffffff 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #fffffff1;
+    color: #000000;
+}
+
+/* SECTION */
+section {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 1%;
+    margin: 5%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #070707;
+}
+
+/* FOOTER */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.footerbox {
+    color: #fffffff0;
+    background-color: #000000d1;
+    position: 0, 0, -1;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+}
